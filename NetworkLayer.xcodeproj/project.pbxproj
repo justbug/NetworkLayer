@@ -11,6 +11,8 @@
 		A7740A69208C7D6C0491569D /* Pods_NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1858346462BE4161A61B33 /* Pods_NetworkLayer.framework */; };
 		FFBB8531203D62D800C32A8E /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB8530203D62D800C32A8E /* Operation.swift */; };
 		FFBB8533203D62FA00C32A8E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB8532203D62FA00C32A8E /* Response.swift */; };
+		FFBB8535203D661300C32A8E /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB8534203D661300C32A8E /* NetworkDispatcher.swift */; };
+		FFBB8537203D663F00C32A8E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB8536203D663F00C32A8E /* Request.swift */; };
 		FFF1C6BD2032E3BB0037D5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1C6BC2032E3BB0037D5DA /* AppDelegate.swift */; };
 		FFF1C6BF2032E3BB0037D5DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1C6BE2032E3BB0037D5DA /* ViewController.swift */; };
 		FFF1C6C22032E3BB0037D5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF1C6C02032E3BB0037D5DA /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 		E464C66B274DF5CBE23B4E84 /* Pods-NetworkLayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkLayerTests/Pods-NetworkLayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FFBB8530203D62D800C32A8E /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		FFBB8532203D62FA00C32A8E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		FFBB8534203D661300C32A8E /* NetworkDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
+		FFBB8536203D663F00C32A8E /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		FFF1C6B92032E3BB0037D5DA /* NetworkLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF1C6BC2032E3BB0037D5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF1C6BE2032E3BB0037D5DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 			children = (
 				FFBB8530203D62D800C32A8E /* Operation.swift */,
 				FFBB8532203D62FA00C32A8E /* Response.swift */,
+				FFBB8534203D661300C32A8E /* NetworkDispatcher.swift */,
+				FFBB8536203D663F00C32A8E /* Request.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -360,8 +366,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFBB8533203D62FA00C32A8E /* Response.swift in Sources */,
+				FFBB8537203D663F00C32A8E /* Request.swift in Sources */,
 				FFF1C6BF2032E3BB0037D5DA /* ViewController.swift in Sources */,
 				FFF1C6BD2032E3BB0037D5DA /* AppDelegate.swift in Sources */,
+				FFBB8535203D661300C32A8E /* NetworkDispatcher.swift in Sources */,
 				FFBB8531203D62D800C32A8E /* Operation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
