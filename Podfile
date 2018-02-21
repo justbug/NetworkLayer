@@ -9,6 +9,7 @@ target 'NetworkLayer' do
   pod 'Alamofire', '~> 4.5'
   pod 'PromiseKit', '~> 6.0'
   pod 'ReachabilitySwift'
+  pod 'SwiftyJSON'
 
   target 'NetworkLayerTests' do
     inherit! :search_paths
